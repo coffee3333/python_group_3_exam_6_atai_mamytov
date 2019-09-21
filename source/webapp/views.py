@@ -62,9 +62,11 @@ def book_search_view(request, *args, **kwargs):
     form = SearchForm(data=request.GET)
     if form.is_valid():
         text = form.cleaned_data['search']
-        books = Books.objects.filter(name_author__contains=text, status="active").order_by("-created_at")
-        print(text)
-        print(books)
-        return render(request, 'index.html', context={'books': books})
-    else:
-        redirect('index')
+        if len(text) > 0:
+            books = Books.objects.filter(name_author__contains=text, status="active").order_by("-created_at")
+            print(text)
+            print(books)
+            return render(request, 'index.html', context={'books': books})
+        else:
+            return redirect('index')
+    return redirect('index')
