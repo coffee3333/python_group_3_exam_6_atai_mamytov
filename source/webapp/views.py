@@ -1,7 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.shortcuts import render
 from webapp.models import Books
-from webapp.forms import BookForm
+from webapp.forms import BookForm, SearchForm
 
 
 def index_view(request, *args, **kwargs):
@@ -31,8 +30,12 @@ def book_create_view(request, *args, **kwargs):
 def book_edit_view(request, pk):
     book = get_object_or_404(Books, pk=pk)
     if request.method == 'GET':
-        form = BookForm()
-        return render(request, 'update.html', context={'book': book,'form': form})
+        form = BookForm(data={
+            'name_author' : book.name_author,
+            'mail_author' : book.mail_author,
+            'entry' : book.entry
+        })
+        return render(request, 'update.html', context={'form': form, 'book': book})
     elif request.method == 'POST':
         form = BookForm(data=request.POST)
         if form.is_valid():
@@ -53,3 +56,15 @@ def book_delete_view(request, pk):
     elif request.method == 'POST':
         book.delete()
         return redirect('index')
+
+
+def book_search_view(request, *args, **kwargs):
+    form = SearchForm(data=request.GET)
+    if form.is_valid():
+        text = form.cleaned_data['search']
+        books = Books.objects.filter(name_author__contains=text, status="active").order_by("-created_at")
+        print(text)
+        print(books)
+        return render(request, 'index.html', context={'books': books})
+    else:
+        redirect('index')
