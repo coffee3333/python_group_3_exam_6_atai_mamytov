@@ -3,92 +3,104 @@
   "model": "webapp.books",
   "pk": 1,
   "fields": {
-    "name_author": "Atay",
+    "name_author": "atay2",
     "mail_author": "Atay@atay.com",
     "entry": "Some text",
-    "created_at": "2019-09-21T09:11:42.910Z",
-    "changed_at": "2019-09-21T09:11:42.910Z",
-    "status": "Active"
+    "created_at": "2019-09-21T09:31:48.743Z",
+    "changed_at": "2019-09-21T09:33:25.455Z",
+    "status": "active"
   }
 },
 {
   "model": "webapp.books",
   "pk": 2,
   "fields": {
-    "name_author": "Tima",
-    "mail_author": "Tima@tima.com",
-    "entry": "Some text",
-    "created_at": "2019-09-21T09:12:01.722Z",
-    "changed_at": "2019-09-21T09:12:01.722Z",
-    "status": "Active"
+    "name_author": "Alexey",
+    "mail_author": "alexey@alexey.com",
+    "entry": "some text",
+    "created_at": "2019-09-21T09:32:26.201Z",
+    "changed_at": "2019-09-21T09:32:26.201Z",
+    "status": "active"
   }
 },
 {
   "model": "webapp.books",
   "pk": 3,
   "fields": {
-    "name_author": "Artem",
-    "mail_author": "artem@artem.com",
-    "entry": "Some text",
-    "created_at": "2019-09-21T09:12:33.464Z",
-    "changed_at": "2019-09-21T09:12:33.464Z",
-    "status": "Active"
+    "name_author": "Atay",
+    "mail_author": "atay@atay.com",
+    "entry": "some text",
+    "created_at": "2019-09-21T09:32:54.117Z",
+    "changed_at": "2019-09-21T09:32:54.117Z",
+    "status": "active"
   }
 },
 {
   "model": "webapp.books",
   "pk": 4,
   "fields": {
-    "name_author": "Alexey",
-    "mail_author": "alexey@alexey.com",
-    "entry": "Some text",
-    "created_at": "2019-09-21T09:13:04.606Z",
-    "changed_at": "2019-09-21T09:13:04.606Z",
-    "status": "Active"
+    "name_author": "Alexey changed",
+    "mail_author": "form@fomrm.com",
+    "entry": "som txt",
+    "created_at": "2019-09-21T09:34:18.196Z",
+    "changed_at": "2019-09-21T09:34:18.196Z",
+    "status": "active"
   }
 },
 {
   "model": "webapp.books",
   "pk": 5,
   "fields": {
-    "name_author": "Uyldash",
-    "mail_author": "uyldash@uyldash.com",
-    "entry": "Some text",
-    "created_at": "2019-09-21T09:13:53.174Z",
-    "changed_at": "2019-09-21T09:13:53.174Z",
-    "status": "Active"
+    "name_author": "tima",
+    "mail_author": "tim",
+    "entry": "some text",
+    "created_at": "2019-09-21T09:35:13.065Z",
+    "changed_at": "2019-09-21T09:35:13.065Z",
+    "status": "active"
   }
 },
 {
   "model": "webapp.books",
   "pk": 6,
   "fields": {
-    "name_author": "Toshiba",
-    "mail_author": "toshiba@toshiba.com",
-    "entry": "some text",
-    "created_at": "2019-09-21T09:14:33.875Z",
-    "changed_at": "2019-09-21T09:14:33.875Z",
-    "status": "Blocked"
+    "name_author": "Test",
+    "mail_author": "phone@phone.com",
+    "entry": "sadfasdf",
+    "created_at": "2019-09-21T09:35:38.720Z",
+    "changed_at": "2019-09-21T09:35:38.720Z",
+    "status": "active"
   }
 },
 {
   "model": "webapp.books",
   "pk": 7,
   "fields": {
-    "name_author": "samsung",
-    "mail_author": "smsung@sumsung.com",
-    "entry": "some sum text",
-    "created_at": "2019-09-21T09:15:03.173Z",
-    "changed_at": "2019-09-21T09:15:03.174Z",
-    "status": "Blocked"
+    "name_author": "Toshiba",
+    "mail_author": "toshiba@toshiba.com",
+    "entry": "test",
+    "created_at": "2019-09-21T09:35:55.439Z",
+    "changed_at": "2019-09-21T09:35:55.439Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.books",
+  "pk": 8,
+  "fields": {
+    "name_author": "Jorik",
+    "mail_author": "atay@atay.com",
+    "entry": "asdfs",
+    "created_at": "2019-09-21T09:36:14.763Z",
+    "changed_at": "2019-09-21T09:36:14.764Z",
+    "status": "blocked"
   }
 },
 {
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$150000$KYmzCcmalVCX$5mEroxFay1rZPuASpI9xJ4knlZpWh1eO8NjXcSYn9Tc=",
-    "last_login": "2019-09-21T09:11:17.926Z",
+    "password": "pbkdf2_sha256$150000$Fk1xcXER76Ze$+Z9G973PsunwEkfXTrf34SQ64xUlsO2oyP8zpSGAgZU=",
+    "last_login": "2019-09-21T09:31:28.303Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -96,7 +108,7 @@
     "email": "",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2019-09-21T09:10:47.159Z",
+    "date_joined": "2019-09-21T09:30:50.246Z",
     "groups": [],
     "user_permissions": []
   }

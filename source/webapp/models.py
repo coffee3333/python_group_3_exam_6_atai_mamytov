@@ -1,8 +1,8 @@
 from django.db import models
 
 STATUS = [
-    ('Active', 'active'),
-    ('Blocked', 'blocked')
+    ('active', 'active'),
+    ('blocked', 'blocked')
 ]
 
 class Books(models.Model):
