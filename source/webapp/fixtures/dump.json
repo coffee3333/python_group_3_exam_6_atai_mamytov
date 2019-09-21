@@ -4,10 +4,10 @@
   "pk": 1,
   "fields": {
     "name_author": "Atay",
-    "mail_author": "form@fomrm.com",
+    "mail_author": "Atay@atay.com",
     "entry": "Some text",
-    "created_at": "2019-09-21",
-    "changed_at": "2019-09-21",
+    "created_at": "2019-09-21T09:11:42.910Z",
+    "changed_at": "2019-09-21T09:11:42.910Z",
     "status": "Active"
   }
 },
@@ -15,11 +15,11 @@
   "model": "webapp.books",
   "pk": 2,
   "fields": {
-    "name_author": "Artem",
-    "mail_author": "form@fomrm.com",
+    "name_author": "Tima",
+    "mail_author": "Tima@tima.com",
     "entry": "Some text",
-    "created_at": "2019-09-21",
-    "changed_at": "2019-09-21",
+    "created_at": "2019-09-21T09:12:01.722Z",
+    "changed_at": "2019-09-21T09:12:01.722Z",
     "status": "Active"
   }
 },
@@ -27,11 +27,11 @@
   "model": "webapp.books",
   "pk": 3,
   "fields": {
-    "name_author": "Alexey",
-    "mail_author": "form@fomrm.com",
-    "entry": "Some entry",
-    "created_at": "2019-09-21",
-    "changed_at": "2019-09-21",
+    "name_author": "Artem",
+    "mail_author": "artem@artem.com",
+    "entry": "Some text",
+    "created_at": "2019-09-21T09:12:33.464Z",
+    "changed_at": "2019-09-21T09:12:33.464Z",
     "status": "Active"
   }
 },
@@ -39,11 +39,11 @@
   "model": "webapp.books",
   "pk": 4,
   "fields": {
-    "name_author": "Uyldash",
-    "mail_author": "form@fomrm.com",
+    "name_author": "Alexey",
+    "mail_author": "alexey@alexey.com",
     "entry": "Some text",
-    "created_at": "2019-09-21",
-    "changed_at": "2019-09-21",
+    "created_at": "2019-09-21T09:13:04.606Z",
+    "changed_at": "2019-09-21T09:13:04.606Z",
     "status": "Active"
   }
 },
@@ -51,23 +51,35 @@
   "model": "webapp.books",
   "pk": 5,
   "fields": {
-    "name_author": "Jorik",
-    "mail_author": "form@fomrm.com",
-    "entry": "some text",
-    "created_at": "2019-09-21",
-    "changed_at": "2019-09-21",
-    "status": "Blocked"
+    "name_author": "Uyldash",
+    "mail_author": "uyldash@uyldash.com",
+    "entry": "Some text",
+    "created_at": "2019-09-21T09:13:53.174Z",
+    "changed_at": "2019-09-21T09:13:53.174Z",
+    "status": "Active"
   }
 },
 {
   "model": "webapp.books",
   "pk": 6,
   "fields": {
-    "name_author": "Tima",
-    "mail_author": "form@fomrm.com",
-    "entry": "Some text for test",
-    "created_at": "2019-09-21",
-    "changed_at": "2019-09-21",
+    "name_author": "Toshiba",
+    "mail_author": "toshiba@toshiba.com",
+    "entry": "some text",
+    "created_at": "2019-09-21T09:14:33.875Z",
+    "changed_at": "2019-09-21T09:14:33.875Z",
+    "status": "Blocked"
+  }
+},
+{
+  "model": "webapp.books",
+  "pk": 7,
+  "fields": {
+    "name_author": "samsung",
+    "mail_author": "smsung@sumsung.com",
+    "entry": "some sum text",
+    "created_at": "2019-09-21T09:15:03.173Z",
+    "changed_at": "2019-09-21T09:15:03.174Z",
     "status": "Blocked"
   }
 },
@@ -75,8 +87,8 @@
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$150000$SMPQJ44QMtbJ$pPV5ekSRK4Ivuw1HL7H3PetfRmNxs4S1me/iFXPD9VQ=",
-    "last_login": "2019-09-21T06:13:30.305Z",
+    "password": "pbkdf2_sha256$150000$KYmzCcmalVCX$5mEroxFay1rZPuASpI9xJ4knlZpWh1eO8NjXcSYn9Tc=",
+    "last_login": "2019-09-21T09:11:17.926Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -84,7 +96,7 @@
     "email": "",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2019-09-21T06:13:11.461Z",
+    "date_joined": "2019-09-21T09:10:47.159Z",
     "groups": [],
     "user_permissions": []
   }

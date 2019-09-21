@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Delete entry{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h2 class="mt-5">Do you want to delete task {{ book.name_author }}?</h2>
+        <form method="POST" action="{% url 'book_delete' book.pk %}">
+            {% csrf_token %}
+            <p><input type="submit" value="Confirm" class="btn btn-outline-success btn-block"></p>
+            <p><a href="{% url 'index' %}"class="btn btn-outline-success btn-block">Back</a></p>
+        </form>
+    </div>
+{% endblock %}
