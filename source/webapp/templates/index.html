@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block menu %}
+    {% comment %}<a href="{% url 'task_add' %}" class="btn btn-outline-light">Add Article</a>{% endcomment %}
+{% endblock %}
+
+{% block content %}
+    <h1 class="mt-5">Guest book</h1>
+    <hr/>
+    <div class="row">
+        {% for book in books %}
+            <div class="col-lg-3 col-md-6 mb-3"">
+                <div class="card rounded-0">
+                    <div class="card-body">
+                        <h4>{{ book.name_author }} </h4>
+                        <h5>{{ book.mail_author }}</h5>
+                        <div class="container mb-5">{{ book.entry }}</div>
+                        <div class="container">
+                            <a href="#" class="btn btn-outline-success  btn-block">Edit</a>
+                        </div>
+                        <div class="container">
+                            <a href="#" class="btn btn-outline-success  btn-block">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %} 
