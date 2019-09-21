@@ -61,18 +61,6 @@
 },
 {
   "model": "webapp.books",
-  "pk": 6,
-  "fields": {
-    "name_author": "Test",
-    "mail_author": "phone@phone.com",
-    "entry": "sadfasdf",
-    "created_at": "2019-09-21T09:35:38.720Z",
-    "changed_at": "2019-09-21T09:35:38.720Z",
-    "status": "active"
-  }
-},
-{
-  "model": "webapp.books",
   "pk": 7,
   "fields": {
     "name_author": "Toshiba",
@@ -93,6 +81,18 @@
     "created_at": "2019-09-21T09:36:14.763Z",
     "changed_at": "2019-09-21T09:36:14.764Z",
     "status": "blocked"
+  }
+},
+{
+  "model": "webapp.books",
+  "pk": 9,
+  "fields": {
+    "name_author": "Uyldash",
+    "mail_author": "uyldash@dash.com",
+    "entry": "Some textasdf",
+    "created_at": "2019-09-21T09:39:02.185Z",
+    "changed_at": "2019-09-21T10:46:52.086Z",
+    "status": "active"
   }
 },
 {
